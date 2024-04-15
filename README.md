@@ -37,6 +37,13 @@ apt update -y && apt dist-upgrade -y
 ```
 
 
+（ipv4忽略，NATipv6使用）快速使用一键设置NAT64地址
+
+
+```
+mv /etc/resolv.conf /etc/resolv.conf.bak && echo -e "nameserver 2001:67c:2b0::4\nnameserver 2001:67c:2b0::6" > /etc/resolv.conf
+```
+
 
 使用:
 
