@@ -154,9 +154,9 @@ function Start() {
   fi
 
   if [[ "$isCN" == '1' ]]; then
-   wget --no-check-certificate -qO /tmp/InstallNET.sh 'https://cdn.jsdelivr.net/gh/fcurrk/reinstall@master/InstallNET.sh' && chmod a+x /tmp/InstallNET.sh
+   wget --no-check-certificate -qO /tmp/InstallNET.sh 'https://cdn.jsdelivr.net/gh/a21922/ddos@master/InstallNET.sh' && chmod a+x /tmp/InstallNET.sh
   else 
-   wget --no-check-certificate -qO /tmp/InstallNET.sh 'https://raw.githubusercontent.com/fcurrk/reinstall/master/InstallNET.sh' && chmod a+x /tmp/InstallNET.sh
+   wget --no-check-certificate -qO /tmp/InstallNET.sh 'https://raw.githubusercontent.com/a21922/ddos/master/InstallNET.sh' && chmod a+x /tmp/InstallNET.sh
   fi
   
   CMIRROR=''
